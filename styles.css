@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Coiny&display=swap');
+
+
+body{
+    min-width: 320px;
+    font-family: 'Source Sans Pro';
+}
+
+ul{
+    margin:0px !important;
+    padding: 0px !important;
+}
+.hero{
+    background-image: url('./images/pic_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+}
+
+.hero h1{
+    font-size: 120px;
+    font-weight: 700;
+    margin-top: 6rem;
+}
+
+
+
+figure .logo{
+    width: 25%;
+    height: 100%;
+}
+
+figure .logo-text{
+    width: 65%;
+    height: 100%;
+}
+
+figure{
+    width: 150px;
+    height: 25px;
+}
+
+figcaption{
+    font-size: 18px;
+    font-weight: 900;
+
+}
+
+.profile p{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+ul{
+    list-style: none;
+    font-size: 12px;
+    align-content: center;
+}
+li{
+    text-align: center;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.main-li{
+    width: 100px;
+    margin-right: 0;
+}
+
+.main-button{
+    width: 170px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 22px;
+    background: #C271FF;
+    font-size: 14px;
+    font-weight: 600;
+    margin: auto;
+    cursor: pointer;
+}
+
+.opinion{
+    height: 392px;
+    background: #C271FF;
+}
+
+.hero-subtitle{
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 4rem;
+}
+
+.hero-subtitle span{
+    font-weight:700;
+    color: #C271FF;
+
+}
+
+.profiles{
+    padding-left:5rem;
+    padding-right: 5rem;
+}
+
+
+.profile{
+    width: 150px;
+}
+
+.profile-photo{
+    height: 150px;
+    width: 150px;
+    
+}
+
+.profile-photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+
+@media screen and (max-width:768px){
+    .profiles{
+        padding-left:0 !important;
+        padding-right: 0 !important;
+    }
+    .hero{
+        background-position: top center;
+    }
+}
+
+label,
+    label::before,
+    label::after{
+    position: absolute;
+    width: 22px;
+    height: 4px;
+    border-radius: 5px;
+    background: #fff;
+    margin-top: 1px;
+    top:45px;
+    left: 0px;
+    }
+
+    label{
+        cursor: pointer;
+        width: 14px;
+        left: 20px;
+    }
+
+    label::before{
+        content: "";
+        transform: translateY(-55px);
+    }
+    label::after{
+        content: "";
+        transform: translateY(-38px);
+    }
+
+    @media screen and (max-width:576px){
+        #menu{
+           display: none;
+        }
+    }
+
+    #burger-button:checked ~ ul{
+       display: flex;
+}
