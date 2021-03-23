@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Coiny&display=swap');
 
-
 body{
     min-width: 320px;
     font-family: 'Source Sans Pro';
@@ -162,6 +161,19 @@ label,
     @media screen and (max-width:576px){
         #menu{
            display: none;
+        }
+
+        .hero h1{
+            font-size: 61px;
+            font-style: normal;
+        }
+        .profile{
+           width: 250px;
+           text-align: center;
+           margin: auto;
+        }
+        .profile-photo{
+            margin: auto;
         }
     }
 
