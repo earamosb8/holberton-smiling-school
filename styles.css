@@ -18,6 +18,37 @@ ul{
     color: white;
 }
 
+.hero-pricing{
+    background-image: url('./images/pic_2.jpg');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+}
+
+.hero-pricing h3{
+    margin-top: 150px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.hero-pricing  .logo-smile, .logo-pricing{
+    width: 37px;
+    height: 30px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.hero-pricing .logo-pricing{
+    width: 150px;
+    height: 60px;
+}
+
+.hero-pricing h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
 .hero h1{
     font-size: 120px;
     font-weight: 700;
