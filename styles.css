@@ -83,6 +83,9 @@ li{
 
 .opinion{
     background: #C271FF;
+    height: 350px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 
@@ -306,4 +309,41 @@ h2 .popular, .photo-name p, .info p{
     width: 25px;
     right:20px;
 }
+
+.section-free{
+    background-color: #071629;
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+}
+.membership{
+    height: 153px;
+    width: 257px;
+}
+.membership .title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.membership .text{
+    font-size: 14px;
+    font-weight: 400;
+    height: 52px;
+    width: 212px;
+    margin: auto;
+}
+
+.smile{
+    width: 45px;
+    margin-bottom: 45px;
+}
+
+.section-free{
+    padding-top: 80px;
+}
+
+.membership-group{
+    margin-bottom: 50px;
+}
+
 
