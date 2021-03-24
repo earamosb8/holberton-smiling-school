@@ -201,8 +201,24 @@ label,
         #card2{
             display: none !important;
         }
-       
-    }
+
+        .footer .icons{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        
+        .social-icons{
+            height: 50px;
+           
+        }
+
+        
+
+        .aux{
+            height: 280px;
+        }
+}
 
     #burger-button:checked ~ ul{
        display: flex;
@@ -345,5 +361,32 @@ h2 .popular, .photo-name p, .info p{
 .membership-group{
     margin-bottom: 50px;
 }
+
+.footer{
+    
+    padding-right: 45px;
+    padding-left: 45px;
+    
+    
+}
+
+.aux{
+    background-color:#071629;
+    height: 249px;
+    
+    
+}
+.social-icons{
+    height: 100px;
+    line-height: 100px;
+    margin-top: 70px;
+}
+
+.icons{
+    margin-top: 50px;
+}
+
+
+
 
 
