@@ -27,6 +27,15 @@ ul{
     color: white;
 }
 
+.hero-courses{
+    background-image: url('./images/pic_3.jpg');
+    background-size: cover ;
+    background-position: -15px center;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+}
+
 .hero-pricing h3{
     margin-top: 150px;
     font-size: 32px;
@@ -99,6 +108,20 @@ li{
 .main-li{
     width: 100px;
     margin-right: 0;
+}
+
+a{
+    color:white;
+}
+a:hover{
+    color:white;
+}
+
+.courses a{
+    color:#C271FF;
+}
+.courses a:hover{
+    color:#C271FF;
 }
 
 .main-button{
@@ -473,6 +496,15 @@ h2 .popular, .photo-name p, .info p{
     text-align: left;
 }   
 
+.hero-courses h2{
+    height: 70px;
+    width: 480px;
+    font-family: Coiny;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom:40px;
+}
 
 
 
