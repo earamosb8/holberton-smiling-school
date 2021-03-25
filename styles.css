@@ -180,6 +180,11 @@ li{
     #card3, #card4{
         display: none !important;
     }
+
+    .faq .container-text p{
+        height: 264px;
+        width: 270px;
+    }
 }
 
 label,
@@ -195,20 +200,22 @@ label,
     left: 0px;
     }
 
-    label{
-        cursor: pointer;
-        width: 14px;
-        left: 20px;
-    }
+label{
+    cursor: pointer;
+    width: 14px;
+    left: 20px;
+}
 
-    label::before{
-        content: "";
-        transform: translateY(-55px);
-    }
-    label::after{
-        content: "";
-        transform: translateY(-38px);
-    }
+label::before{
+    content: "";
+    transform: translateY(-55px);
+}
+label::after{
+    content: "";
+    transform: translateY(-38px);
+}
+
+
 
     @media screen and (max-width:576px){
         #menu{
@@ -256,6 +263,12 @@ label,
 
         .aux{
             height: 280px;
+        }
+
+        .faq .container-text p{
+            height: 192px;
+            width: 341px;
+            margin-bottom: 70px;
         }
 }
 
@@ -431,7 +444,34 @@ h2 .popular, .photo-name p, .info p{
     margin-top: 50px;
 }
 
+.faq .title-faq{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 60px;
+    font-weight: 300;
+}
 
+.faq .container-text h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 25px;
+   
+}
+
+
+.faq .container-text {
+    margin: auto;
+    margin-bottom: 40px;
+}
+.faq .container-text p{
+    font-weight: 400;
+    text-align: left;
+    width: 350px;
+    height: 192px;
+    font-size: 14px;
+    text-align: left;
+}   
 
 
 
