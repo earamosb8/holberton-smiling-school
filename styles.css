@@ -21,6 +21,7 @@ ul{
 .hero-pricing{
     background-image: url('./images/pic_2.jpg');
     background-size: cover ;
+    background-position: top center;
     background-repeat: no-repeat;
     width: 100%;
     color: white;
@@ -170,6 +171,8 @@ li{
         background-position: top center;
     }
 
+  
+
     .opinion-text{
         height: 135px;
         width: 370px;  
@@ -253,6 +256,12 @@ label,
 
     #burger-button:checked ~ ul{
        display: flex;
+}
+
+
+.plans{ 
+    font-size: 12px;
+    font-weight: 700;
 }
 
 
@@ -416,6 +425,7 @@ h2 .popular, .photo-name p, .info p{
 .icons{
     margin-top: 50px;
 }
+
 
 
 
