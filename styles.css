@@ -228,6 +228,11 @@ label,
             margin: auto;
         }
 
+        .opinion{
+            height: 550px;
+
+        }
+
         .opinion-text{
             width: 346px;  
         }
