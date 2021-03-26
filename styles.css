@@ -293,6 +293,7 @@ label::after{
             width: 341px;
             margin-bottom: 70px;
         }
+       
 }
 
     #burger-button:checked ~ ul{
@@ -368,6 +369,16 @@ h2 .popular, .photo-name p, .info p{
     margin-right: 20px;
     margin-bottom: 15px;
 }
+.container-video2{
+   
+    border-radius: 5px;
+    
+   
+    margin-bottom: 15px;
+}
+
+
+
 
 .stars img{
     width: 100%;
